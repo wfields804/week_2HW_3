@@ -74,6 +74,26 @@ if add_dairy_to_list == "add_dairy_to_list":
 
 
 
+# SSSSSSOOOOOOOOOOOOOO
+# I think that this is a super-cool direction BUT it just so happens that this particular assignment we're 
+# going to continue building on so it'll be easier to be a little more typical
+
+# basic layout idea:
+
+def shop():
+    cart = {}
+    while True:
+        main = input('show/add/etc. . . ')
+        if main == 'add':
+            addq = input('whatchu want?')
+            quan = input('how many?')
+            cart[addq] = quan
+            print(f'you bought stuff!  here\'s where you\'re at: {cart}')
+        elif main == 'quit':
+            print(cart)
+            break
+
+
 
 
 
